@@ -9,7 +9,6 @@ export default function Navbar() {
             src={Logo}
             alt=''
             width={64}
-            quality={100}
         />
         <h1>Forecaster</h1>
         <Link href={"/"}>Home</Link>
