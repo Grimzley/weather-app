@@ -3,7 +3,6 @@
 :root {
     --theme-color: #03a9f4;
 }
-
 body {
   background: #ebf0fa;
   @apply text-gray-500 m-8;
@@ -29,7 +28,9 @@ nav {
     pb-4
     border-b-2
     border-gray-400
-    flex items-center gap-5
+    flex
+    items-center
+    gap-5
     my-10
     mx-auto
     max-w-5xl;
@@ -39,4 +40,41 @@ nav a{
 }
 nav a:hover {
   @apply text-black;
+}
+
+/* Form */
+form {
+  @apply flex gap-2 justify-center mb-4;
+}
+form input {
+  @apply
+    border
+    rounded
+    px-3
+    py-2
+    w-full;
+}
+
+/* Button */
+button {
+  background: var(--theme-color);
+  @apply
+    px-3
+    py-2
+    text-white
+    rounded-sm
+    flex
+    justify-between
+    items-center
+    gap-2
+    text-sm;
+}
+button:hover {
+  @apply opacity-90 cursor-pointer;
+}
+
+/* Feedback */
+.error {
+  @apply
+  text-red-500;
 }

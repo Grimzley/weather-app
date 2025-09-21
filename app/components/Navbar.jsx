@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Logo from '../favicon.ico'
-import Link from 'next/link'
+import Image from "next/image";
+import Logo from "../favicon.ico";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
